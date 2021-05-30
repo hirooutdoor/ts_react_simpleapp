@@ -3,10 +3,8 @@ import theme from "./theme/theme";
 
 export default function App() {
   return (
-    <div className="App">
-      <ChakraProvider theme={theme}>
-        <Button colorScheme="teal">Button</Button>
-      </ChakraProvider>
-    </div>
+    <ChakraProvider theme={theme}>
+      <Button colorScheme="teal">Button</Button>
+    </ChakraProvider>
   );
 }
